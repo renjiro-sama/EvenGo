@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="evengo.png">
+    <title>EvenGo</title>
+    <style>
+        *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+    }
+    body{
+        background-color: #282829;
+    }
+    header{
+       height: 50px;
+    }
+    .btn{
+        background-color: #27AE60;
+        color: white;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .type1{
+        position: absolute;
+        right: 10px;
+        top: 15px;
+        transition: background-color 0.5s;
+    }
+    .head{
+       text-align: center;
+         line-height: 50px;
+    }
+    .logo{
+        position: absolute;
+        top: 0;
+    }
+    
+    nav ul{
+        list-style-type: none;
+            
+    }
+    nav li{
+        float: left;
+        width: 20%;
+        box-sizing: border-box;
+        height: 50px;
+        text-align: center;
+        line-height: 50px;
+        background-color: #27AE60;
+    }
+    nav a{
+        color: white;
+        display: block;
+        transition: background-color 0.5s;      
+    }
+    nav a:hover{
+        background-color: #555;
+    }
+    h2{
+        color: white;
+    }
+    a{
+        text-decoration: none;  
+        color: white; 
+    }
+    section{
+        display: flex;
+        color: white;
+        margin-left: 10px;
+        text-align: justify;
+        width: 100%;
+    }
+    main{
+        width: 65%;
+    }
+   main img{
+        margin-left: 40px;
+        width:800px;
+        border-radius: 10px;
+    }
+    iframe{
+        margin-left: 40px;
+        border-radius: 10px;
+    }
+    h3{
+        color: lightseagreen;
+    }
+    footer{
+        height: 50px;
+        background-color: #27AE60;
+        text-align: center;
+        line-height: 50px;
+    }
+    footer h3{
+        color: white;
+    }
+    aside{
+        width: 28%;
+        position: fixed;
+        right: 20px;
+    }
+    aside img{
+        margin-left: -5px;
+        width: 120px;
+        transition: all 0.5s;
+    }
+    aside a{
+        display: flex;
+        justify-content: space-between;
+    }
+    aside a:hover img{
+        transform: scale(1.1,1.1);
+        filter: brightness(0.6);
+        border-radius: 10px;
+    }
+    a p{
+        align-self: center;
+        margin-left: 10px;
+    }
+    ul{
+        list-style-type: none;
+    }
+    div{
+        width: 800px;
+        height: 500px;
+        overflow: hidden;
+        position: relative;
+        margin-left: 30px;
+    }
+    div img{
+        width: 95%;
+        height: 100%;
+        position: absolute;
+        left: -30px;
+        opacity: 0;
+        animation: fade 9s infinite;
+    }
+    div img:nth-child(1){
+        animation-delay: 0s;
+    }
+    div img:nth-child(2){
+        animation-delay: 2s;
+    }
+    div img:nth-child(3){
+        animation-delay: 4s;
+    }
+    div img:nth-child(4){
+        animation-delay: 6s;
+    }
+    div img:nth-child(5){
+        animation-delay: 8s;
+    }
+    @keyframes fade{
+        0% { opacity: 0; }
+        20% { opacity: 1; }
+        50% { opacity: 1; }
+        80% { opacity: 0; }
+        100% { opacity: 0; }
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <h2 class="head">Reserver votre ticket de votre match préféré</h2>
+        <img src="evengo.png" alt="no" height="50px" class="logo">
+        <input type="button" value="se connecter" onclick="window.location.href='register.html'" class="btn type1">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="event.html">matchs</a></li>
+            <li><a href="actualité.html">Actualités</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <br><br><br><br>
+    <section>
+    <main>
+    <p class="pub">publié le: 10/02/2025</p><br>
+    <h1>La CAN, c’est loin encore</h1><br><br>
+    <img src="4.jpg" alt="no"><br><br>
+    <p class="para">Dès le tirage au sort, nous avons eu droit à quelques fanfaronnades. Certains ont commencé à se projeter au deuxième tour, et à voir qui pourrait affronter le Maroc dans les matchs à élimination directe. Pas si vite, les amis.<br><br>Le Maroc retrouvera donc le Mali, la Zambie et les Comores. Le jour même du tirage, nous avons forcément ressenti un petit frisson. Parce qu’il est impossible de ne pas se projeter. On s’est forcément posé la question de ce que valent le Mali, la Zambie et les Comores. On s’est rappelé de la performance de ces sélections lors de la dernière CAN, sans parler de leurs confrontations directes avec les Lions de l’Atlas.<br><br>Et alors ? Rien du tout, il faut attendre, il faut de la patience. Le tirage n’y changera rien : la CAN est désormais concrète puisque le Maroc connait ses premiers adversaires, il est possible de se projeter. Mais il faut laisser le temps au temps.</p><br><br>
+    <p>La patience doit aller de pair avec la retenue. Dès le tirage au sort, nous avons eu droit à quelques fanfaronnades. Certains ont commencé à se projeter au deuxième tour, et à voir qui pourrait affronter le Maroc dans les matchs à élimination directe. Pas si vite, les amis.<br><br>Rappelons-nous du cas extraordinaire de la Côte d’Ivoire, qui a accueilli la dernière (et formidable) édition de la CAN. Le rêve était grand, mais la précipitation aussi. Résultat : les Ivoiriens, qui considéraient le 1er tour comme une simple formalité, ont perdu deux des trois premiers matchs et n’ont dû leur qualification au tour suivant qu’à la providence divine, ou presque…<br><br>Au Maroc, nous avons le même problème. Chaque fois que les Lions font un bon Mondial ou possèdent une génération prometteuse, ils se voient dominer tout le continent africain. Ce «rêve» crée une pression inutile et très dangereuse, car elle peut tuer. Il est temps que l’on apprenne la leçon de nos échecs répétés.</p><br><br>
+    <div>
+        <img src="41.jpeg" height="400px" alt="no">
+        <img src="42.jpeg" height="400px" alt="no">
+        <img src="43.jpeg" height="400px" alt="no">
+        <img src="44.jpeg" height="400px" alt="no">
+        <img src="45.jpeg" height="400px" alt="no">
+        
+    </div>
+    <br><br>
+    </main>
+    <aside>
+        <h3>Articles similaires:</h3><br>
+        <ul>
+            <li><a href="act2.html"><img src="2.jpg" alt="no" height="80px" width="200px"><p>Sundowns-AS FAR: un sommet aux enjeux multiples</p></a></li><br>
+            <li><a href="act1.html"><img src="1.jpg" style="margin-bottom: 20px;" alt="no" height="80px" width="200px"><p>Date du tirage au sort de la Coupe d'Afrique des Nations 2025 au Maroc et les chaînes de diffusion</p></a></li>
+            <li><a href="act3.html"><img src="3.jpg" alt="no" height="80px" width="200px"><p>Raja: le bureau directeur tente de redresser la barre</p></a></li><br>
+            <li><a href="act4.html"><img src="4.jpg" alt="no" height="80px" width="200px"><p>La CAN, c’est loin encore<span style="visibility: hidden;">__________</span></p></a></li>
+        </ul>
+    </aside>
+</section>
+<footer>
+    <h3>tous droits réservés © 2025</h3><img src="evengo.png" alt="no" height="50px">
+</footer>
+</body>
+</html>
